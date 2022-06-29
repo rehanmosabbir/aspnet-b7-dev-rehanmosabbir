@@ -12,40 +12,40 @@ namespace JsonSerializer
     {
         public static string Convert(object item)
         {
-            StringBuilder stringBuilder = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             IEnumerable<PropertyInfo> properties = item.GetType().GetProperties();
             if (!item.GetType().IsPrimitive && item.GetType() != typeof(string) && item.GetType() != typeof(DateTime))
             {
                 bool isArray = typeof(IEnumerable).IsAssignableFrom(item.GetType()) ? true : false;
                 if (isArray)
-                    stringBuilder.Append($"[");
+                    sb.Append($"[");
                 else
-                    stringBuilder.Append($"{{");
+                    sb.Append($"{{");
 
                 if (!isArray)
                     foreach (var property in properties)
                         if (property.PropertyType.IsPrimitive || property.PropertyType == typeof(string))
-                            stringBuilder.Append($"\"{property.Name}\": \"{property.GetValue(item)}\", ");
+                            sb.Append($"\"{property.Name}\": \"{property.GetValue(item)}\", ");
                         else
-                            stringBuilder.Append($"\"{property.Name}\": {Convert(property.GetValue(item))}, ");
+                            sb.Append($"\"{property.Name}\": {Convert(property.GetValue(item))}, ");
                 else
                     foreach (var i in item as IEnumerable)
                         if (i.GetType().IsPrimitive || i.GetType() == typeof(string))
-                            stringBuilder.Append($"\"{i}\", ");
+                            sb.Append($"\"{i}\", ");
                         else
-                            stringBuilder.Append($"{Convert(i)}, ");
+                            sb.Append($"{Convert(i)}, ");
 
-                stringBuilder.Remove(stringBuilder.ToString().Length - 2, 2);
+                sb.Remove(sb.ToString().Length - 2, 2);
 
                 if (isArray)
-                    stringBuilder.Append($"]");
+                    sb.Append($"]");
                 else
-                    stringBuilder.Append($"}}");
+                    sb.Append($"}}");
             }
             else
-                stringBuilder.Append($"\"{item.ToString()}\"");
+                sb.Append($"\"{item.ToString()}\"");
 
-            return stringBuilder.ToString();
+            return sb.ToString();
         }
     }
 }
