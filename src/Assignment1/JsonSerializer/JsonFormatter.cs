@@ -13,7 +13,7 @@ namespace JsonSerializer
         public static string Convert(object item)
         {
             StringBuilder sb = new StringBuilder();
-            IEnumerable<PropertyInfo> properties = item.GetType().GetProperties();
+            IEnumerable<PropertyInfo> props = item.GetType().GetProperties();
             if (!item.GetType().IsPrimitive && item.GetType() != typeof(string) && item.GetType() != typeof(DateTime))
             {
                 bool isArray = typeof(IEnumerable).IsAssignableFrom(item.GetType()) ? true : false;
@@ -23,7 +23,7 @@ namespace JsonSerializer
                     sb.Append($"{{");
 
                 if (!isArray)
-                    foreach (var property in properties)
+                    foreach (var property in props)
                         if (property.PropertyType.IsPrimitive || property.PropertyType == typeof(string))
                             sb.Append($"\"{property.Name}\": \"{property.GetValue(item)}\", ");
                         else

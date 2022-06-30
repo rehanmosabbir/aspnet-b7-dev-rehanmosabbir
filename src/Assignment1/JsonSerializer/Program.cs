@@ -20,8 +20,8 @@ course.Teacher = new Instructor()
         Street = "37/A, Green Road"
     },
     PhoneNumbers = new List<Phone> {
-        new Phone(){Number="1749291863", CountryCode="+880"},
-        new Phone(){Number="1835853215", CountryCode="+880"}
+        new Phone(){Number="1749291863",Extension="", CountryCode="+880"},
+        new Phone(){Number="1835853215",Extension="",CountryCode="+880"}
     }
 };
 
@@ -41,7 +41,9 @@ course.Topics = new List<Topic>()
 
 course.Tests = new List<AdmissionTest>()
 {
-    new AdmissionTest(){StartDateTime=new DateTime(2022,1,21,10,0,0), EndDateTime=new DateTime(2022,1,21,11,0,0),TestFees=500},
+    new AdmissionTest(){StartDateTime=new DateTime(2022,1,21,10,0,0), EndDateTime=new DateTime(2022,1,21,11,0,0),TestFees=100},
+    new AdmissionTest(){StartDateTime=new DateTime(2022,1,29,10,0,0), EndDateTime=new DateTime(2022,1,29,11,0,0),TestFees=100},
+
 };
 
 string json = JsonFormatter.Convert(course);
