@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldiers_and_bananas_546A",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football_96A", "Football_96A\Football_96A.csproj", "{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elephant_617A", "Elephant_617A\Elephant_617A.csproj", "{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
