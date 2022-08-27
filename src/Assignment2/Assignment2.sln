@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word_capitalization_281A", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boys_or_girls_236A", "Boys_or_girls_236A\Boys_or_girls_236A.csproj", "{E891B150-EC93-42A9-889B-5B73866BC083}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stones_on_the_table_266A", "Stones_on_the_table_266A\Stones_on_the_table_266A.csproj", "{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{E891B150-EC93-42A9-889B-5B73866BC083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E891B150-EC93-42A9-889B-5B73866BC083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E891B150-EC93-42A9-889B-5B73866BC083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
