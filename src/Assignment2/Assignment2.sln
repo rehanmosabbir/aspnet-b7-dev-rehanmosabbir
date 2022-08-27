@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petya_and_strings_112A", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpful_Maths_339A", "Helpful_Maths_339A\Helpful_Maths_339A.csproj", "{FC365C37-A977-4439-9A5B-66386F19691A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Task_118A", "String_Task_118A\String_Task_118A.csproj", "{F2045221-1788-4F50-B813-A3CDF8B8B761}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{FC365C37-A977-4439-9A5B-66386F19691A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC365C37-A977-4439-9A5B-66386F19691A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC365C37-A977-4439-9A5B-66386F19691A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2045221-1788-4F50-B813-A3CDF8B8B761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2045221-1788-4F50-B813-A3CDF8B8B761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2045221-1788-4F50-B813-A3CDF8B8B761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2045221-1788-4F50-B813-A3CDF8B8B761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
