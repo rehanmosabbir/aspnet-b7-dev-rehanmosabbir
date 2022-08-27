@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boys_or_girls_236A", "Boys_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stones_on_the_table_266A", "Stones_on_the_table_266A\Stones_on_the_table_266A.csproj", "{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bear_and_big_brother_791A", "Bear_and_big_brother_791A\Bear_and_big_brother_791A.csproj", "{F45DD2A9-1350-4AA9-8C41-6DA1FDEF0BC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4970C44-7D3E-4C3C-BB4B-8833DB05588D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45DD2A9-1350-4AA9-8C41-6DA1FDEF0BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45DD2A9-1350-4AA9-8C41-6DA1FDEF0BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45DD2A9-1350-4AA9-8C41-6DA1FDEF0BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45DD2A9-1350-4AA9-8C41-6DA1FDEF0BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
