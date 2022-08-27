@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football_96A", "Football_96
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elephant_617A", "Elephant_617A\Elephant_617A.csproj", "{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word_59A", "Word_59A\Word_59A.csproj", "{EF53A140-FF4F-439F-A3ED-ADC2E74D2FCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3B5FA8D-B62E-40D6-84BE-F188B373A2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF53A140-FF4F-439F-A3ED-ADC2E74D2FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF53A140-FF4F-439F-A3ED-ADC2E74D2FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF53A140-FF4F-439F-A3ED-ADC2E74D2FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF53A140-FF4F-439F-A3ED-ADC2E74D2FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
