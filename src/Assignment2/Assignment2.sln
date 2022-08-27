@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watermelon_4A", "Watermelon_4A\Watermelon_4A.csproj", "{10248388-BAAC-44F6-B5A0-B08EB3F76C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watermelon_4A", "Watermelon_4A\Watermelon_4A.csproj", "{10248388-BAAC-44F6-B5A0-B08EB3F76C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Way_too_long_words_71A", "Way_too_long_words_71A\Way_too_long_words_71A.csproj", "{EF2B23B3-715D-4DB0-A09E-22EBFE3D9650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Way_too_long_words_71A", "Way_too_long_words_71A\Way_too_long_words_71A.csproj", "{EF2B23B3-715D-4DB0-A09E-22EBFE3D9650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team_231A", "Team_231A\Team_231A.csproj", "{DCE126BC-1008-4432-8366-1149CDA538F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Team_231A", "Team_231A\Team_231A.csproj", "{DCE126BC-1008-4432-8366-1149CDA538F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheatreSquare_1A", "TheatreSquare_1A\TheatreSquare_1A.csproj", "{21A19991-2410-48B7-A243-605FD0E9EA41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheatreSquare_1A", "TheatreSquare_1A\TheatreSquare_1A.csproj", "{21A19991-2410-48B7-A243-605FD0E9EA41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextRound_158A", "NextRound_158A\NextRound_158A.csproj", "{C512B454-AA09-4CE8-9B43-50B9F5D19106}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextRound_158A", "NextRound_158A\NextRound_158A.csproj", "{C512B454-AA09-4CE8-9B43-50B9F5D19106}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domino_piling_50A", "Domino_piling_50A\Domino_piling_50A.csproj", "{1B7A2E86-A4DA-47FC-A212-4E9048DBC58E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domino_piling_50A", "Domino_piling_50A\Domino_piling_50A.csproj", "{1B7A2E86-A4DA-47FC-A212-4E9048DBC58E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bit_plus_plus_282A", "Bit_plus_plus_282A\Bit_plus_plus_282A.csproj", "{8C9BE9D3-F10F-45B9-A4F2-28E99DE7407C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bit_plus_plus_282A", "Bit_plus_plus_282A\Bit_plus_plus_282A.csproj", "{8C9BE9D3-F10F-45B9-A4F2-28E99DE7407C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petya_and_strings_112A", "Petya_and_strings_112A\Petya_and_strings_112A.csproj", "{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8C9BE9D3-F10F-45B9-A4F2-28E99DE7407C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C9BE9D3-F10F-45B9-A4F2-28E99DE7407C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C9BE9D3-F10F-45B9-A4F2-28E99DE7407C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
