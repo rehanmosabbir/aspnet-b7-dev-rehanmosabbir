@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nearly_Lucky_Number_110A", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tram_116A", "Tram_116A\Tram_116A.csproj", "{EEDE0CC7-F699-4386-A7BA-4D4A8BE19888}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anton_And_Danik_734A", "Anton_And_Danik_734A\Anton_And_Danik_734A.csproj", "{389EFD36-241C-4506-9222-24B15FBC5064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{EEDE0CC7-F699-4386-A7BA-4D4A8BE19888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEDE0CC7-F699-4386-A7BA-4D4A8BE19888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEDE0CC7-F699-4386-A7BA-4D4A8BE19888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389EFD36-241C-4506-9222-24B15FBC5064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389EFD36-241C-4506-9222-24B15FBC5064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389EFD36-241C-4506-9222-24B15FBC5064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389EFD36-241C-4506-9222-24B15FBC5064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
