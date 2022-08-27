@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpful_Maths_339A", "Helpf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Task_118A", "String_Task_118A\String_Task_118A.csproj", "{F2045221-1788-4F50-B813-A3CDF8B8B761}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word_capitalization_281A", "Word_capitalization_281A\Word_capitalization_281A.csproj", "{5FE09695-20EF-4E11-9876-DFCE61991E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{F2045221-1788-4F50-B813-A3CDF8B8B761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2045221-1788-4F50-B813-A3CDF8B8B761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2045221-1788-4F50-B813-A3CDF8B8B761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE09695-20EF-4E11-9876-DFCE61991E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE09695-20EF-4E11-9876-DFCE61991E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE09695-20EF-4E11-9876-DFCE61991E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE09695-20EF-4E11-9876-DFCE61991E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
