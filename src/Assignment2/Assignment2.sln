@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bit_plus_plus_282A", "Bit_p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petya_and_strings_112A", "Petya_and_strings_112A\Petya_and_strings_112A.csproj", "{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpful_Maths_339A", "Helpful_Maths_339A\Helpful_Maths_339A.csproj", "{FC365C37-A977-4439-9A5B-66386F19691A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6A4EBF1-11DC-43E6-98A9-7E4C50411ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC365C37-A977-4439-9A5B-66386F19691A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC365C37-A977-4439-9A5B-66386F19691A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC365C37-A977-4439-9A5B-66386F19691A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC365C37-A977-4439-9A5B-66386F19691A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
