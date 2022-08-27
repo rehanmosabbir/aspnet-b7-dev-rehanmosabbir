@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Way_too_long_words_71A", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team_231A", "Team_231A\Team_231A.csproj", "{DCE126BC-1008-4432-8366-1149CDA538F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheatreSquare_1A", "TheatreSquare_1A\TheatreSquare_1A.csproj", "{21A19991-2410-48B7-A243-605FD0E9EA41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DCE126BC-1008-4432-8366-1149CDA538F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE126BC-1008-4432-8366-1149CDA538F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE126BC-1008-4432-8366-1149CDA538F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A19991-2410-48B7-A243-605FD0E9EA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A19991-2410-48B7-A243-605FD0E9EA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A19991-2410-48B7-A243-605FD0E9EA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A19991-2410-48B7-A243-605FD0E9EA41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
