@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bear_and_big_brother_791A",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldiers_and_bananas_546A", "Soldiers_and_bananas_546A\Soldiers_and_bananas_546A.csproj", "{FA8FD539-9497-4214-BD66-ACFC2341B349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football_96A", "Football_96A\Football_96A.csproj", "{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{FA8FD539-9497-4214-BD66-ACFC2341B349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA8FD539-9497-4214-BD66-ACFC2341B349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA8FD539-9497-4214-BD66-ACFC2341B349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C031D8C9-C4CA-4C7C-832C-EF1892EFD4E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
