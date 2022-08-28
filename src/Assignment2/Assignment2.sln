@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "George_and_Accommodation_46
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "In_Search_of_an_Easy_Problem_1030A", "In_Search_of_an_Easy_Problem_1030A\In_Search_of_an_Easy_Problem_1030A.csproj", "{DE7B37A3-1D7F-4015-B23D-5D6AF7C6314E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQ9+_133A", "HQ9+_133A\HQ9+_133A.csproj", "{583A5932-896E-4C0E-B9F1-9E261ADEF248}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{DE7B37A3-1D7F-4015-B23D-5D6AF7C6314E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE7B37A3-1D7F-4015-B23D-5D6AF7C6314E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE7B37A3-1D7F-4015-B23D-5D6AF7C6314E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583A5932-896E-4C0E-B9F1-9E261ADEF248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583A5932-896E-4C0E-B9F1-9E261ADEF248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583A5932-896E-4C0E-B9F1-9E261ADEF248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583A5932-896E-4C0E-B9F1-9E261ADEF248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
