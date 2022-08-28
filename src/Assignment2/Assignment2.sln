@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beautiful_year_271A", "Beau
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanya_and_Fence_677A", "Vanya_and_Fence_677A\Vanya_and_Fence_677A.csproj", "{035F2045-660A-4D0E-A0A9-CBBBBED295D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucky_Division_122A", "Lucky_Division_122A\Lucky_Division_122A.csproj", "{A9D4ADFD-FA28-4C80-B143-31B0CE541FEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{035F2045-660A-4D0E-A0A9-CBBBBED295D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{035F2045-660A-4D0E-A0A9-CBBBBED295D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{035F2045-660A-4D0E-A0A9-CBBBBED295D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D4ADFD-FA28-4C80-B143-31B0CE541FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D4ADFD-FA28-4C80-B143-31B0CE541FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D4ADFD-FA28-4C80-B143-31B0CE541FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D4ADFD-FA28-4C80-B143-31B0CE541FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
