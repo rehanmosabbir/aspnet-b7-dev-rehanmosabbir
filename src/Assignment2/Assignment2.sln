@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anton_And_Danik_734A", "Ant
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translation_41A", "Translation_41A\Translation_41A.csproj", "{3A5AC17F-E184-4C18-880A-78553DAA780F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatroom_58A", "Chatroom_58A\Chatroom_58A.csproj", "{BDC2EACA-D2FC-4F20-BE67-67A2B9C9B0DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{3A5AC17F-E184-4C18-880A-78553DAA780F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A5AC17F-E184-4C18-880A-78553DAA780F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A5AC17F-E184-4C18-880A-78553DAA780F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC2EACA-D2FC-4F20-BE67-67A2B9C9B0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC2EACA-D2FC-4F20-BE67-67A2B9C9B0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC2EACA-D2FC-4F20-BE67-67A2B9C9B0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC2EACA-D2FC-4F20-BE67-67A2B9C9B0DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
