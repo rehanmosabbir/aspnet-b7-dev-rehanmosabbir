@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatroom_58A", "Chatroom_58
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beautiful_year_271A", "Beautiful_year_271A\Beautiful_year_271A.csproj", "{EEE1F205-4CE8-49F4-B545-C527542F85A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanya_and_Fence_677A", "Vanya_and_Fence_677A\Vanya_and_Fence_677A.csproj", "{035F2045-660A-4D0E-A0A9-CBBBBED295D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{EEE1F205-4CE8-49F4-B545-C527542F85A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE1F205-4CE8-49F4-B545-C527542F85A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE1F205-4CE8-49F4-B545-C527542F85A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035F2045-660A-4D0E-A0A9-CBBBBED295D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035F2045-660A-4D0E-A0A9-CBBBBED295D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035F2045-660A-4D0E-A0A9-CBBBBED295D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035F2045-660A-4D0E-A0A9-CBBBBED295D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
