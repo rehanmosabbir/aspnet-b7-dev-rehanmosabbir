@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Even_Odds_318A", "Even_Odds
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculating_Function_486A", "Calculating_Function_486A\Calculating_Function_486A.csproj", "{51927619-AFF6-4325-9172-A3B6DB5B7569}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drinks_200B", "Drinks_200B\Drinks_200B.csproj", "{CCD36951-F0A6-46A3-A2AA-42E57C6F95A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{51927619-AFF6-4325-9172-A3B6DB5B7569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51927619-AFF6-4325-9172-A3B6DB5B7569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51927619-AFF6-4325-9172-A3B6DB5B7569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD36951-F0A6-46A3-A2AA-42E57C6F95A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD36951-F0A6-46A3-A2AA-42E57C6F95A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD36951-F0A6-46A3-A2AA-42E57C6F95A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD36951-F0A6-46A3-A2AA-42E57C6F95A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
