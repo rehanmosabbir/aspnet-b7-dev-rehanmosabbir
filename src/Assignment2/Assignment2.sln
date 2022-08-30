@@ -71,7 +71,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drinks_200B", "Drinks_200B\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra-Fast_Mathematician_61A", "Ultra-Fast_Mathematician_61A\Ultra-Fast_Mathematician_61A.csproj", "{E1016878-7BFF-45CB-AD77-94DEBFE27C1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hulk_705A", "Hulk_705A\Hulk_705A.csproj", "{5E829EE4-9677-4D2C-A890-4812FD9165D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hulk_705A", "Hulk_705A\Hulk_705A.csproj", "{5E829EE4-9677-4D2C-A890-4812FD9165D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dubstep_208A", "Dubstep_208A\Dubstep_208A.csproj", "{DD8D0C28-A058-4F42-9180-44FE04D2C3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cAPS_lOCK_131A", "cAPS_lOCK_131A\cAPS_lOCK_131A.csproj", "{F3254751-ACD2-4124-9D3D-6DFBBAC780B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,14 @@ Global
 		{5E829EE4-9677-4D2C-A890-4812FD9165D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E829EE4-9677-4D2C-A890-4812FD9165D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E829EE4-9677-4D2C-A890-4812FD9165D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8D0C28-A058-4F42-9180-44FE04D2C3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8D0C28-A058-4F42-9180-44FE04D2C3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8D0C28-A058-4F42-9180-44FE04D2C3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8D0C28-A058-4F42-9180-44FE04D2C3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3254751-ACD2-4124-9D3D-6DFBBAC780B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3254751-ACD2-4124-9D3D-6DFBBAC780B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3254751-ACD2-4124-9D3D-6DFBBAC780B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3254751-ACD2-4124-9D3D-6DFBBAC780B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
