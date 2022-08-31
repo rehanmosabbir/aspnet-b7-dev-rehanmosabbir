@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football_43A", "Football_43
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square_String_1619A", "Square_String_1619A\Square_String_1619A.csproj", "{0F21094B-074E-447B-AF54-01320E701AED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangram_520A", "Pangram_520A\Pangram_520A.csproj", "{0568744F-2460-427D-80AF-707A8F7F4A77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{0F21094B-074E-447B-AF54-01320E701AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F21094B-074E-447B-AF54-01320E701AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F21094B-074E-447B-AF54-01320E701AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0568744F-2460-427D-80AF-707A8F7F4A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0568744F-2460-427D-80AF-707A8F7F4A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0568744F-2460-427D-80AF-707A8F7F4A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0568744F-2460-427D-80AF-707A8F7F4A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
