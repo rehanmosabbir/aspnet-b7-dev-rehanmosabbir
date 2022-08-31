@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_With_Sticks_451A", "Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQ_test_25A", "IQ_test_25A\IQ_test_25A.csproj", "{D8897155-8A21-4544-8115-A622DD2653DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presents_136A", "Presents_136A\Presents_136A.csproj", "{9C461C9E-F88E-4D89-B893-DE493B94F141}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +293,10 @@ Global
 		{D8897155-8A21-4544-8115-A622DD2653DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8897155-8A21-4544-8115-A622DD2653DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8897155-8A21-4544-8115-A622DD2653DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C461C9E-F88E-4D89-B893-DE493B94F141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C461C9E-F88E-4D89-B893-DE493B94F141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C461C9E-F88E-4D89-B893-DE493B94F141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C461C9E-F88E-4D89-B893-DE493B94F141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
