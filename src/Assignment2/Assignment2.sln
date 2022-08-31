@@ -89,6 +89,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangram_520A", "Pangram_520
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anton_and_Polyhedrons_785A", "Anton_and_Polyhedrons_785A\Anton_and_Polyhedrons_785A.csproj", "{932900E7-1D83-40D7-82CE-D19ECDFE0A47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fox_And_Snake_510A", "Fox_And_Snake_510A\Fox_And_Snake_510A.csproj", "{01175707-3756-46C7-89A6-CE3219E3CD73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{932900E7-1D83-40D7-82CE-D19ECDFE0A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{932900E7-1D83-40D7-82CE-D19ECDFE0A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{932900E7-1D83-40D7-82CE-D19ECDFE0A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01175707-3756-46C7-89A6-CE3219E3CD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01175707-3756-46C7-89A6-CE3219E3CD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01175707-3756-46C7-89A6-CE3219E3CD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01175707-3756-46C7-89A6-CE3219E3CD73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
