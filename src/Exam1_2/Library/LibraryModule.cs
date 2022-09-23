@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Library.Areas.Admin.Models;
 using Library.Models;
 
 namespace Library
@@ -10,6 +11,7 @@ namespace Library
             builder.RegisterType<BookModel>().As<IBookModel>()
                 .InstancePerLifetimeScope();
             builder.RegisterType<BookModel>().AsSelf();
+            builder.RegisterType<BookCreateModel>().AsSelf();
             base.Load(builder);
         }
     }

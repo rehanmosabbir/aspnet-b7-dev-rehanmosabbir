@@ -1,5 +1,8 @@
 ﻿using Autofac;
 using Infrastructure.DbContexts;
+using Infrastructure.Repositories;
+using Infrastructure.Services;
+using Infrastructure.UnitOfWorks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +28,17 @@ namespace Infrastructure
                 .WithParameter("connectionString", _connectionString)
                 .WithParameter("migrationAssemblyName", _migrationAssemblyName)
                 .InstancePerLifetimeScope();
-        
+            builder.RegisterType<ApplicationDbContext>().As<IApplicationDbContext>()
+                .WithParameter("connectionString", _connectionString)
+                .WithParameter("migrationAssemblyName", _migrationAssemblyName)
+                .InstancePerLifetimeScope();
+            builder.RegisterType<BookService>().As<IBookService>()
+                .InstancePerLifetimeScope();
+            builder.RegisterType<BookRepository>().As<IBookRepository>()
+                .InstancePerLifetimeScope();
+            builder.RegisterType<ApplicationUnitOfWork>().As<IApplicationUnitOfWork>()
+                .InstancePerLifetimeScope();
+
             base.Load(builder);
         }
 }

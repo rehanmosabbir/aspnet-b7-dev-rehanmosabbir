@@ -1,4 +1,5 @@
-﻿using Library.Areas.Admin.Models;
+﻿using Autofac;
+using Library.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Library.Areas.Admin.Controllers
@@ -6,6 +7,13 @@ namespace Library.Areas.Admin.Controllers
     [Area("Admin")]
     public class BookController : Controller
     {
+        private readonly ILifetimeScope _scope;
+        private readonly ILogger<BookController> _logger;
+        public BookController(ILogger<BookController> logger, ILifetimeScope scope)
+        {
+            _scope = scope;
+            _logger = logger;
+        }
         public IActionResult Index()
         {
             return View();
@@ -13,7 +21,7 @@ namespace Library.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
-            BookCreateModel model = new BookCreateModel();
+            BookCreateModel model = _scope.Resolve<BookCreateModel>();
             return View(model);
         }
         [HttpPost,ValidateAntiForgeryToken]
@@ -21,6 +29,7 @@ namespace Library.Areas.Admin.Controllers
         {
             if(ModelState.IsValid)
             {
+                model.ResolveDependency(_scope);
                 await model.CreateBook();
             }
             return View(model);
