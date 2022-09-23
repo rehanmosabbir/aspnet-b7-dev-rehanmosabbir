@@ -7,6 +7,8 @@ using System.Reflection;
 using Library;
 using Serilog;
 using Serilog.Events;
+using Infrastructure.DbContexts;
+using Infrastructure;
 
 try 
 { 
@@ -14,11 +16,13 @@ try
 
     // Add services to the container.
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    var assemblyName = Assembly.GetExecutingAssembly().FullName;
 
     //Autofac Configuration
     builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
     builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => {
         containerBuilder.RegisterModule(new LibraryModule());
+        containerBuilder.RegisterModule(new InfrastructureModule(connectionString,assemblyName));
     });
 
     //Serilog Configuration
@@ -29,7 +33,7 @@ try
             .ReadFrom.Configuration(builder.Configuration));
 
     builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseSqlServer(connectionString));
+        options.UseSqlServer(connectionString, m => m.MigrationsAssembly(assemblyName)));
     builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
     builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)

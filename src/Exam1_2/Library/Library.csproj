@@ -21,11 +21,14 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Member\Data\" />
     <Folder Include="Areas\Member\Models\" />
     <Folder Include="wwwroot\admin\" />
     <Folder Include="wwwroot\member\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
