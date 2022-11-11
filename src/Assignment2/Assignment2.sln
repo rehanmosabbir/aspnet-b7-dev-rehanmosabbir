@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panoramixs_Prediction_80A",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marathon_1692A", "Marathon_1692A\Marathon_1692A.csproj", "{12446ED5-EB8B-4D05-BD77-A64911EC37DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucky_1676A", "Lucky_1676A\Lucky_1676A.csproj", "{CA579761-3537-439E-B3EB-ECF580CDBFB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{12446ED5-EB8B-4D05-BD77-A64911EC37DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12446ED5-EB8B-4D05-BD77-A64911EC37DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12446ED5-EB8B-4D05-BD77-A64911EC37DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA579761-3537-439E-B3EB-ECF580CDBFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA579761-3537-439E-B3EB-ECF580CDBFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA579761-3537-439E-B3EB-ECF580CDBFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA579761-3537-439E-B3EB-ECF580CDBFB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
