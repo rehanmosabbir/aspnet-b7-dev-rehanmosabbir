@@ -87,19 +87,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Square_String_1619A", "Squa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangram_520A", "Pangram_520A\Pangram_520A.csproj", "{0568744F-2460-427D-80AF-707A8F7F4A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anton_and_Polyhedrons_785A", "Anton_and_Polyhedrons_785A\Anton_and_Polyhedrons_785A.csproj", "{932900E7-1D83-40D7-82CE-D19ECDFE0A47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anton_and_Polyhedrons_785A", "Anton_and_Polyhedrons_785A\Anton_and_Polyhedrons_785A.csproj", "{932900E7-1D83-40D7-82CE-D19ECDFE0A47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fox_And_Snake_510A", "Fox_And_Snake_510A\Fox_And_Snake_510A.csproj", "{01175707-3756-46C7-89A6-CE3219E3CD73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fox_And_Snake_510A", "Fox_And_Snake_510A\Fox_And_Snake_510A.csproj", "{01175707-3756-46C7-89A6-CE3219E3CD73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Police_Recruits_427A", "Police_Recruits_427A\Police_Recruits_427A.csproj", "{0B7CE741-8048-48AA-933F-5AAFADB1D518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Police_Recruits_427A", "Police_Recruits_427A\Police_Recruits_427A.csproj", "{0B7CE741-8048-48AA-933F-5AAFADB1D518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_With_Sticks_451A", "Game_With_Sticks_451A\Game_With_Sticks_451A.csproj", "{DD150A89-19A6-443A-8DD9-5F587CAD8845}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game_With_Sticks_451A", "Game_With_Sticks_451A\Game_With_Sticks_451A.csproj", "{DD150A89-19A6-443A-8DD9-5F587CAD8845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQ_test_25A", "IQ_test_25A\IQ_test_25A.csproj", "{D8897155-8A21-4544-8115-A622DD2653DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQ_test_25A", "IQ_test_25A\IQ_test_25A.csproj", "{D8897155-8A21-4544-8115-A622DD2653DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presents_136A", "Presents_136A\Presents_136A.csproj", "{9C461C9E-F88E-4D89-B893-DE493B94F141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presents_136A", "Presents_136A\Presents_136A.csproj", "{9C461C9E-F88E-4D89-B893-DE493B94F141}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amusing_Joke_141A", "Amusing_Joke_141A\Amusing_Joke_141A.csproj", "{D85461A0-5402-421F-AC28-894AD753D14F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amusing_Joke_141A", "Amusing_Joke_141A\Amusing_Joke_141A.csproj", "{D85461A0-5402-421F-AC28-894AD753D14F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panoramixs_Prediction_80A", "Panoramixs_Prediction_80A\Panoramixs_Prediction_80A.csproj", "{9DC8DBF7-438A-41AE-9A1A-B0F1045220B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{D85461A0-5402-421F-AC28-894AD753D14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D85461A0-5402-421F-AC28-894AD753D14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D85461A0-5402-421F-AC28-894AD753D14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC8DBF7-438A-41AE-9A1A-B0F1045220B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC8DBF7-438A-41AE-9A1A-B0F1045220B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC8DBF7-438A-41AE-9A1A-B0F1045220B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC8DBF7-438A-41AE-9A1A-B0F1045220B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
