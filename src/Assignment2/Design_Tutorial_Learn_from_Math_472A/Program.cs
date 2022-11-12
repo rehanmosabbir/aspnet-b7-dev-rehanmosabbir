@@ -10,3 +10,4 @@ else
     Console.Write(n - 9);
     Console.Write(" 9");
 }
+
