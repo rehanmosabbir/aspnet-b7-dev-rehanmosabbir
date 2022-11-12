@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Young_Physicist_69A", "Youn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is_your_horseshoe_on_the_other_hoof_228A", "Is_your_horseshoe_on_the_other_hoof_228A\Is_your_horseshoe_on_the_other_hoof_228A.csproj", "{E7D8D539-70B4-470D-ACE9-667ABA4538A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression_479A", "Expression_479A\Expression_479A.csproj", "{487549EC-34B2-4A8C-913F-23C0F729EE85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +413,10 @@ Global
 		{E7D8D539-70B4-470D-ACE9-667ABA4538A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7D8D539-70B4-470D-ACE9-667ABA4538A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7D8D539-70B4-470D-ACE9-667ABA4538A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487549EC-34B2-4A8C-913F-23C0F729EE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487549EC-34B2-4A8C-913F-23C0F729EE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487549EC-34B2-4A8C-913F-23C0F729EE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487549EC-34B2-4A8C-913F-23C0F729EE85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
