@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candies_and_Two_Sisters_133
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games_268A", "Games_268A\Games_268A.csproj", "{05572896-B590-4B91-815B-D3F84002E7AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Young_Physicist_69A", "Young_Physicist_69A\Young_Physicist_69A.csproj", "{D468E903-306F-48C3-B403-8D19A5C1C2FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -399,6 +401,10 @@ Global
 		{05572896-B590-4B91-815B-D3F84002E7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05572896-B590-4B91-815B-D3F84002E7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05572896-B590-4B91-815B-D3F84002E7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D468E903-306F-48C3-B403-8D19A5C1C2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D468E903-306F-48C3-B403-8D19A5C1C2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D468E903-306F-48C3-B403-8D19A5C1C2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D468E903-306F-48C3-B403-8D19A5C1C2FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
