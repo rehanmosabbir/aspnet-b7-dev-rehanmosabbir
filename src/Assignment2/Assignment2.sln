@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File_Name_978B", "File_Name
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combination_Lock_540A", "Combination_Lock_540A\Combination_Lock_540A.csproj", "{5273D01A-EE72-4E5A-AD23-4523D2EB4004}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two-gram_977B", "Two-gram_977B\Two-gram_977B.csproj", "{88EC4A17-D9CC-473C-9C37-88E418B04249}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -507,6 +509,10 @@ Global
 		{5273D01A-EE72-4E5A-AD23-4523D2EB4004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5273D01A-EE72-4E5A-AD23-4523D2EB4004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5273D01A-EE72-4E5A-AD23-4523D2EB4004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EC4A17-D9CC-473C-9C37-88E418B04249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EC4A17-D9CC-473C-9C37-88E418B04249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EC4A17-D9CC-473C-9C37-88E418B04249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EC4A17-D9CC-473C-9C37-88E418B04249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
