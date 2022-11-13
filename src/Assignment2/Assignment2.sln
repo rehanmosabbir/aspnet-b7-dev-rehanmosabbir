@@ -145,6 +145,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vasya_and_Socks_460A", "Vas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Die_Roll_9A", "Die_Roll_9A\Die_Roll_9A.csproj", "{487A084E-9077-41C8-9FAC-041B9B61AE00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minutes_Before_the_New_Year_1283A", "Minutes_Before_the_New_Year_1283A\Minutes_Before_the_New_Year_1283A.csproj", "{9BCF53C6-B5D2-4793-8942-0C15DD4BCCDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +437,10 @@ Global
 		{487A084E-9077-41C8-9FAC-041B9B61AE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{487A084E-9077-41C8-9FAC-041B9B61AE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{487A084E-9077-41C8-9FAC-041B9B61AE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCF53C6-B5D2-4793-8942-0C15DD4BCCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCF53C6-B5D2-4793-8942-0C15DD4BCCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCF53C6-B5D2-4793-8942-0C15DD4BCCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCF53C6-B5D2-4793-8942-0C15DD4BCCDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
