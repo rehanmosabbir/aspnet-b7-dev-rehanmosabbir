@@ -153,6 +153,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum_in _Table_509A", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard_474A", "Keyboard_474A\Keyboard_474A.csproj", "{31DA1E2F-AE41-498E-AADF-99C79A295004}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum_1742A", "Sum_1742A\Sum_1742A.csproj", "{EE1AF71B-D850-46EC-B207-C599E71B2311}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +461,10 @@ Global
 		{31DA1E2F-AE41-498E-AADF-99C79A295004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31DA1E2F-AE41-498E-AADF-99C79A295004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31DA1E2F-AE41-498E-AADF-99C79A295004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1AF71B-D850-46EC-B207-C599E71B2311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1AF71B-D850-46EC-B207-C599E71B2311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1AF71B-D850-46EC-B207-C599E71B2311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1AF71B-D850-46EC-B207-C599E71B2311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
