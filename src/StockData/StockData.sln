@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockData.Worker", "StockData.Worker\StockData.Worker.csproj", "{A3CCD19A-9CDA-4A8E-A660-E8D0B503D6D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockData.Infrastructure", "StockData.Infrastructure\StockData.Infrastructure.csproj", "{79E29625-21B9-4622-A300-9776ACC52205}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A3CCD19A-9CDA-4A8E-A660-E8D0B503D6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3CCD19A-9CDA-4A8E-A660-E8D0B503D6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3CCD19A-9CDA-4A8E-A660-E8D0B503D6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E29625-21B9-4622-A300-9776ACC52205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E29625-21B9-4622-A300-9776ACC52205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E29625-21B9-4622-A300-9776ACC52205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E29625-21B9-4622-A300-9776ACC52205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
