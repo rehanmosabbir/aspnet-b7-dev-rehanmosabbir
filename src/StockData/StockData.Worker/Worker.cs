@@ -49,9 +49,10 @@ namespace StockData.Worker
                 {
                     foreach(var j in i)
                     {
-                        Console.WriteLine(j);
+                        Console.Write(j);
+                        Console.Write(" ");
                     }
-                    Console.WriteLine("============");
+                    Console.WriteLine();
                 }
                 await Task.Delay(30000, stoppingToken);
             }
