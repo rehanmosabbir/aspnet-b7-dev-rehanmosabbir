@@ -3,6 +3,9 @@ using Autofac.Extensions.DependencyInjection;
 using StockData.Worker;
 using Serilog;
 using Serilog.Events;
+using Microsoft.EntityFrameworkCore;
+using StockData.Infrastructure;
+using StockData.Infrastructure.DbContexts;
 
 var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json", false)
                 .AddEnvironmentVariables()
@@ -30,9 +33,15 @@ try
         .ConfigureContainer<ContainerBuilder>(builder =>
         {
             builder.RegisterModule(new WorkerModule());
+            builder.RegisterModule(new InfrastructureModule(connectionString, migrationAssemblyName));
+
         })
-        .ConfigureServices(services =>
+        .ConfigureServices((hostContext, services) =>
         {
+            services.AddDbContext<ApplicationDbContext>(option =>
+                    option.UseSqlServer(connectionString,
+                        b => b.MigrationsAssembly(migrationAssemblyName)));
+           
             services.AddHostedService<Worker>();
         })
         .Build();
