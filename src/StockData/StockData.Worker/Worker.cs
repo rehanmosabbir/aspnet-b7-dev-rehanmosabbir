@@ -7,11 +7,13 @@ namespace StockData.Worker
     {
         private readonly ILogger<Worker> _logger;
         private readonly IStockService _stockService;
+        
 
         public Worker(ILogger<Worker> logger, IStockService stockService)
         {
             _logger = logger;
             _stockService = stockService;
+            
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -29,7 +31,7 @@ namespace StockData.Worker
                 string value;
                 var nodeNew = doc.DocumentNode.SelectSingleNode("//span[@class='" + "green" + "']");
                 value = nodeNew.InnerText;
-                // Console.WriteLine(value);
+                
 
 
                 var node = doc.DocumentNode.SelectSingleNode("//div[contains(@class, 'table-responsive') and contains(@class, 'inner-scroll')]");
@@ -41,7 +43,6 @@ namespace StockData.Worker
                     foreach (var td in tr.SelectNodes("td"))
                     {
                         item.Add(td.InnerText.Trim());
-                        //Console.WriteLine(td.InnerText.Trim());
                     }
 
                     items.Add(item);
@@ -58,8 +59,10 @@ namespace StockData.Worker
                     Console.WriteLine();
                 }
 
+                
                 _stockService.CreateStockData(items);
-                await Task.Delay(30000, stoppingToken);
+                
+                await Task.Delay(60000, stoppingToken);
             }
         }
     }

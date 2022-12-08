@@ -36,6 +36,7 @@ namespace StockData.Infrastructure
             builder.RegisterType<StockPriceRepository>().As<IStockPriceRepository>();
             builder.RegisterType<ApplicationUnitOfWork>().As<IApplicationUnitOfWork>();
             builder.RegisterType<StockService>().As<IStockService>();
+            
 
             
             base.Load(builder);
