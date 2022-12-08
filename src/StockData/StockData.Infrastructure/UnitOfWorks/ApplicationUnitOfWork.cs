@@ -1,0 +1,22 @@
+﻿using Microsoft.EntityFrameworkCore;
+using StockData.Infrastructure.DbContexts;
+using StockData.Infrastructure.Repositories;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StockData.Infrastructure.UnitOfWorks
+{
+    public class ApplicationUnitOfWork : UnitOfWork, IApplicationUnitOfWork
+    {
+        public ICompanyRepository Companies { get; set; }
+        public IStockPriceRepository StockPrices { get; set; }
+        public ApplicationUnitOfWork(IApplicationDbContext dbContext, ICompanyRepository companyRepository, IStockPriceRepository stockPriceRepository) : base((DbContext)dbContext)
+        {
+            Companies = companyRepository;
+            StockPrices = stockPriceRepository;
+        }
+    }
+}

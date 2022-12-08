@@ -1,5 +1,8 @@
 ﻿using Autofac;
 using StockData.Infrastructure.DbContexts;
+using StockData.Infrastructure.Repositories;
+using StockData.Infrastructure.Services;
+using StockData.Infrastructure.UnitOfWorks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,14 +31,13 @@ namespace StockData.Infrastructure
                 .WithParameter("connectionString", _connectionString)
                 .WithParameter("migrationAssemblyName", _assemblyName)
                 .InstancePerLifetimeScope();
-            /*
-            builder.RegisterType<CourseModel>().AsSelf();
-            builder.RegisterType<CourseCreateModel>().AsSelf();
-            builder.RegisterType<CourseEditModel>().AsSelf();
-            builder.RegisterType<CourseListModel>().AsSelf();
-            builder.RegisterType<RegisterModel>().AsSelf();
-            builder.RegisterType<LoginModel>().AsSelf();
-            */
+
+            builder.RegisterType<CompanyRepository>().As<ICompanyRepository>();
+            builder.RegisterType<StockPriceRepository>().As<IStockPriceRepository>();
+            builder.RegisterType<ApplicationUnitOfWork>().As<IApplicationUnitOfWork>();
+            builder.RegisterType<StockService>().As<IStockService>();
+
+            
             base.Load(builder);
         }
     }

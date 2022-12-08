@@ -1,14 +1,17 @@
 using HtmlAgilityPack;
+using StockData.Infrastructure.Services;
 
 namespace StockData.Worker
 {
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
+        private readonly IStockService _stockService;
 
-        public Worker(ILogger<Worker> logger)
+        public Worker(ILogger<Worker> logger, IStockService stockService)
         {
             _logger = logger;
+            _stockService = stockService;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -54,6 +57,8 @@ namespace StockData.Worker
                     }
                     Console.WriteLine();
                 }
+
+                _stockService.CreateStockData(items);
                 await Task.Delay(30000, stoppingToken);
             }
         }
