@@ -27,16 +27,27 @@ namespace StockData.Worker
                 var web = new HtmlWeb();
                 var doc = web.Load(url);
 
-                //With XPath
+                
                 string value;
                 var nodeNew = doc.DocumentNode.SelectSingleNode("//span[@class='" + "green" + "']");
                 value = nodeNew.InnerText;
                 
                 var node = doc.DocumentNode.SelectSingleNode("//div[contains(@class, 'table-responsive') and contains(@class, 'inner-scroll')]");
                 var table = node.SelectSingleNode("table");
-                var tbodies = table.SelectNodes("tr");
+                var trSingle = node.SelectSingleNode("table/tbody/tr");
+                var trs = table.SelectNodes("tr");
 
-                foreach (var tr in tbodies)
+
+
+                foreach (var td in trSingle.SelectNodes("td"))
+                {
+                    item.Add(td.InnerText.Trim());
+                }
+
+                items.Add(item);
+                item = new List<string>();
+
+                foreach (var tr in trs)
                 {
                     foreach (var td in tr.SelectNodes("td"))
                     {
