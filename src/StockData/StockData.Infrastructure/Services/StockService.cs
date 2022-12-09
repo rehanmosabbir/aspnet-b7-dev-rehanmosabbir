@@ -23,6 +23,7 @@ namespace StockData.Infrastructure.Services
 
             foreach(var item in list) 
             {
+                Company? tempdata = new Company();
                 for(int i = 0; i < item.Count; i++) 
                 {
 
@@ -30,9 +31,19 @@ namespace StockData.Infrastructure.Services
                     {
                             case 1:
                             {
-                                company.Id = Guid.NewGuid();
-                                company.TradeCode = item[i];
-                                _applicationUnitOfWork.Companies.Add(company);
+                                tempdata = _applicationUnitOfWork.Companies.Get(x => x.TradeCode == item[i], "StockPrices").FirstOrDefault();
+
+                                if(tempdata == null)
+                                {
+                                    company.Id = Guid.NewGuid();
+                                    company.TradeCode = item[i];
+                                    _applicationUnitOfWork.Companies.Add(company);
+                                }
+                                else
+                                {
+                                    company.Id = tempdata.Id;
+                                }
+                                
                                 break;
                             }
                             case 2:

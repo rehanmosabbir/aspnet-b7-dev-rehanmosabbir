@@ -12,8 +12,8 @@ using StockData.Infrastructure.DbContexts;
 namespace StockData.Worker.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221207100243_AddCompanyAndStockPriceTable")]
-    partial class AddCompanyAndStockPriceTable
+    [Migration("20221209061107_AddCompanyAndStockTable")]
+    partial class AddCompanyAndStockTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -86,8 +86,7 @@ namespace StockData.Worker.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CompanyId")
-                        .IsUnique();
+                    b.HasIndex("CompanyId");
 
                     b.ToTable("StockPrices", (string)null);
                 });
@@ -95,8 +94,8 @@ namespace StockData.Worker.Migrations
             modelBuilder.Entity("StockData.Infrastructure.Entities.StockPrice", b =>
                 {
                     b.HasOne("StockData.Infrastructure.Entities.Company", "Company")
-                        .WithOne("StockPrice")
-                        .HasForeignKey("StockData.Infrastructure.Entities.StockPrice", "CompanyId")
+                        .WithMany("StockPrices")
+                        .HasForeignKey("CompanyId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -105,8 +104,7 @@ namespace StockData.Worker.Migrations
 
             modelBuilder.Entity("StockData.Infrastructure.Entities.Company", b =>
                 {
-                    b.Navigation("StockPrice")
-                        .IsRequired();
+                    b.Navigation("StockPrices");
                 });
 #pragma warning restore 612, 618
         }

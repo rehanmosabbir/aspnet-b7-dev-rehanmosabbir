@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace StockData.Worker.Migrations
 {
-    public partial class AddCompanyAndStockPriceTable : Migration
+    public partial class AddCompanyAndStockTable : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -51,8 +51,7 @@ namespace StockData.Worker.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_StockPrices_CompanyId",
                 table: "StockPrices",
-                column: "CompanyId",
-                unique: true);
+                column: "CompanyId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

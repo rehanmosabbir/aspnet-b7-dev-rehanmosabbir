@@ -32,8 +32,6 @@ namespace StockData.Worker
                 var nodeNew = doc.DocumentNode.SelectSingleNode("//span[@class='" + "green" + "']");
                 value = nodeNew.InnerText;
                 
-
-
                 var node = doc.DocumentNode.SelectSingleNode("//div[contains(@class, 'table-responsive') and contains(@class, 'inner-scroll')]");
                 var table = node.SelectSingleNode("table");
                 var tbodies = table.SelectNodes("tr");
@@ -58,7 +56,6 @@ namespace StockData.Worker
                     }
                     Console.WriteLine();
                 }
-
                 
                 _stockService.CreateStockData(items);
                 

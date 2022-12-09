@@ -10,6 +10,6 @@ namespace StockData.Infrastructure.Entities
     {
         public Guid Id { get; set; }
         public string TradeCode { get; set; }
-        public StockPrice StockPrice { get; set; }
+        public List<StockPrice> StockPrices { get; set; }
     }
 }

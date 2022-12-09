@@ -35,9 +35,9 @@ namespace StockData.Infrastructure.DbContexts
             modelBuilder.Entity<StockPrice>().ToTable("StockPrices");
 
             modelBuilder.Entity<Company>()
-                .HasOne(a => a.StockPrice)
+                .HasMany(a => a.StockPrices)
                 .WithOne(a => a.Company)
-                .HasForeignKey<StockPrice>(x => x.CompanyId);
+                .HasForeignKey(x => x.CompanyId);
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<Company> Companies { get; set; }
