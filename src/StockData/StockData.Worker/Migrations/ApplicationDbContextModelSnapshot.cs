@@ -54,6 +54,9 @@ namespace StockData.Worker.Migrations
                     b.Property<Guid>("CompanyId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("EntryDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("High")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

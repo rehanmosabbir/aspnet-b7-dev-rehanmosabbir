@@ -35,7 +35,8 @@ namespace StockData.Worker.Migrations
                     Change = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Trade = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Value = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Volume = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Volume = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    EntryDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {

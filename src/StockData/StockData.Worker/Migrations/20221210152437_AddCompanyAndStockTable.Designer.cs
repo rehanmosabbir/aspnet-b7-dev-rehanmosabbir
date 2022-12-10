@@ -12,7 +12,7 @@ using StockData.Infrastructure.DbContexts;
 namespace StockData.Worker.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221209061107_AddCompanyAndStockTable")]
+    [Migration("20221210152437_AddCompanyAndStockTable")]
     partial class AddCompanyAndStockTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,6 +55,9 @@ namespace StockData.Worker.Migrations
 
                     b.Property<Guid>("CompanyId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("EntryDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("High")
                         .IsRequired()

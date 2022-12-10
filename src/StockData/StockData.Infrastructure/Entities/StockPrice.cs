@@ -19,6 +19,7 @@ namespace StockData.Infrastructure.Entities
         public string Trade { get; set; }
         public string Value { get; set; }
         public string Volume { get; set; }
+        public DateTime EntryDate { get; set; }
         public Company Company { get; set; }
 
     }

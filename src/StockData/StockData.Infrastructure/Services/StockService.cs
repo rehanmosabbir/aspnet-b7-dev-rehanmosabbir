@@ -92,6 +92,7 @@ namespace StockData.Infrastructure.Services
                             case 10:
                             {
                                 stockPrice.Volume = item[i];
+                                stockPrice.EntryDate = DateTime.Now;
                                 _applicationUnitOfWork.StockPrices.Add(stockPrice);
                                 _applicationUnitOfWork.Save();
                                 break;

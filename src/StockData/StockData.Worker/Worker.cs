@@ -68,13 +68,13 @@ namespace StockData.Worker
                     Console.WriteLine();
                 }
 
-                if(value.ToLower() == "open")
+                if (value.ToLower() == "open")
                 {
                     _stockService.CreateStockData(items);
                 }
-                
-                
-                
+
+                //_stockService.CreateStockData(items);
+
                 await Task.Delay(60000, stoppingToken);
             }
         }
